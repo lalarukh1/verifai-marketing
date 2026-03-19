@@ -103,7 +103,7 @@ body {
 .animate-glow         { animation: glow-pulse 2.5s ease-in-out infinite; }
 .animate-slide-up     { animation: slide-up 0.7s ease forwards; }
 .animate-fade-in      { animation: fade-in 0.8s ease forwards; }
-.animate-ticker       { animation: ticker 28s linear infinite; }
+.animate-ticker       { animation: ticker 120s linear infinite; }
 
 /* ── Glass card ── */
 .glass {

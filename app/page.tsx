@@ -529,11 +529,10 @@ export default function Page() {
               Works where misinformation lives
             </h2>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-3 gap-5">
             <PlatformCard icon="📸" platform="Instagram Reels" scenario={"Wellness influencers, \"natural cure\" videos, diet trends, and political commentary."} tag="Supported now" />
             <PlatformCard icon="🎵" platform="TikTok" scenario="Viral news clips, health claims, conspiracy theories dressed up as entertainment." tag="Supported now" />
-            <PlatformCard icon="▶️" platform="YouTube Shorts" scenario="Fast-moving clips with confident claims and zero citations." tag="Coming soon" />
-            <PlatformCard icon="🐦" platform="X / Twitter" scenario="Breaking news before it's verified, claim threads, manipulated screenshots." tag="Coming soon" />
+            <PlatformCard icon="🔜" platform="More platforms" scenario="YouTube Shorts, X, and others are on the way as we expand VerifAI's reach." tag="Coming soon" />
           </div>
         </div>
       </section>
@@ -558,7 +557,7 @@ export default function Page() {
               <div className="space-y-8">
                 <Feature icon="🔍" title="Claim-by-claim breakdown" body="Every factual claim in the video is extracted and checked individually, so you know exactly which part is accurate and which isn't." />
                 <Feature icon="📰" title="Real sources, not summaries" body="Up to 5 source links per claim from Google News, WHO, CDC, Reuters, AP, and BBC. Read the actual evidence yourself." />
-                <Feature icon="📊" title="Credibility score 0-100" body="A single number that accounts for claim accuracy, account size, and evidence quality. Scan it instantly before sharing." />
+                <Feature icon="📊" title="Credibility score 0-100" body="A single number that accounts for claim accuracy and evidence quality. Scan it instantly before sharing." />
                 <Feature icon="🎙️" title="Audio transcription included" body="Claims spoken in the video, not just the caption, are transcribed by Deepgram and fact-checked too." />
               </div>
             </div>
@@ -580,7 +579,6 @@ export default function Page() {
                   <div className="w-9 h-9 rounded-full" style={{ background: "linear-gradient(135deg, #F97316, #EC4899)" }} />
                   <div>
                     <p className="text-sm font-bold" style={{ color: "#F0F9FF" }}>@naturalhealth_tips</p>
-                    <p className="text-xs" style={{ color: "rgba(255,255,255,0.5)" }}>2.1M followers</p>
                   </div>
                   <div className="ml-auto">
                     <VerdictBadge label="MISLEADING" color="#F97316" />
